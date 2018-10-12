@@ -25,14 +25,14 @@ public class Physics {
 
 			@Override
 			public void run() {
-				if (Jump.isjumping == false) {	
+				if (Jump.isjumping == false) {	, Variablen.jfw, Variablen.jfh);
+                    player.setBounds(Varia
 				
-					ground.setBounds(0, Variablen.groundy, Variablen.jfw, Variablen.jfh);
-                    player.setBounds(Variablen.px,Variablen.py,Variablen.pw,Variablen.ph);
+					ground.setBounds(0, Variablen.groundyblen.px,Variablen.py,Variablen.pw,Variablen.ph);
 						if(player.intersects(ground) == true) {
 							isfalling = false;
 						
-						}else {
+						} else {
 							isfalling = true;
 							Variablen.py++;
 							
