@@ -16,13 +16,11 @@ public class keylistener implements KeyListener{
 	@Override
 	public void keyPressed(KeyEvent k) {
 		if(k.getKeyCode() == KeyEvent.VK_D) {
-			new
+			Debug.Log("TEStDDDD");
 		}
 		if (k.getKeyCode() == KeyEvent.VK_SPACE) {
-			new Jump(50,2);
+			new Jump(50,2);					     
 		}
-		
-		
 	}
 
 	@Override
