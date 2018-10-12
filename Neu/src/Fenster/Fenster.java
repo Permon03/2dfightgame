@@ -24,6 +24,8 @@ public class Fenster {
 		Variablen.jfh = sizeheight;
 	
 		//teswt ich dwbrehnwbdr4nliqwmierv3
+		System.out.print("Test github is cool1 haha");
+		
 		Variablen.groundy = Variablen.jfh-100;
 
 	}
