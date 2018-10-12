@@ -23,7 +23,7 @@ public class Fenster {
 		Variablen.jfw = sizewidth;
 		Variablen.jfh = sizeheight;
 	
-		
+		//teswt ich dwbrehnwbdr4nliqwmierv3
 		Variablen.groundy = Variablen.jfh-100;
 
 	}
